@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="projeto">
+  <head>
+    <meta charset="utf-8">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="/assets/css/deps.min.css">
+    <link rel="stylesheet" href="/assets/css/app.min.css">
+  </head>
+  <body>
+      <nav  class="navbar navbar-inverse" ng-include="'/template/navbar.html'">  </nav>
+        <div    ui-view>  </div>
+      <footer class="footer" ng-include="'/template/footer.html'">  </footer>
+
+      <script src="assets/js/deps.min.js"> </script>
+      <script src="assets/js/app.min.js"> </script>
+  </body>
+</html>
