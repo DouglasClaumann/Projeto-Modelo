@@ -1,7 +1,7 @@
 {
-  "name": "projetolagoa",
+  "name": "projeto",
   "version": "1.0.0",
-  "description": "Exercício para processo de seleção para desenvolvedor front-end",
+  "description": "front-end",
   "main": "index.js",
   "scripts": {
     "dev": "gulp",
